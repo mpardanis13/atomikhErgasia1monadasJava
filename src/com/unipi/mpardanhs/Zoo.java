@@ -30,6 +30,7 @@ public class Zoo {
     // Prosthikh zwoy sth lista
     public void addAnimal(Animal animal){
         animals.add(animal);
+        animal.makeSound();
     }
 
     public void setAnimals(ArrayList<Animal> animals) {
