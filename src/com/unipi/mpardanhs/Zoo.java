@@ -170,7 +170,7 @@ public class Zoo {
                 }
                 case "Penguin" -> {
                     Penguin penguin = (Penguin) found;
-                    System.out.println("Megethos dontiwn: ");
+                    System.out.println("Psaria poy efage shmera: ");
                     String fishEatenToday = s.next();
                     if (!fishEatenToday.equals("000")) penguin.setFishEatenToday(Integer.parseInt(fishEatenToday));
                 }
